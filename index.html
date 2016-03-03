@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First JQuery Mobile Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="themes/first.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hhttps://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+
+  <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+
+  <script>
+	$(function() {
+			$( "[data-role='navbar']" ).navbar();
+			$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+  </script>
+
+</head>
+
+<body>
+
+
+test
+
+
+  <!-- HOME PAGE-->
+  <div data-role="page">
+    <div data-role="header"><h1>Wendy Bertucci - welcome to my world</h1></div>
+    <div role="main" class="ui-content">
+      <ul data-role="listview" data-inset="true" >
+        <li> <a data-icon="star" href="work.html" data-transition="slidefade">See my work</a></li>
+        <li> <a data-icon="star" href="about.html" data-transition="slidefade">About Me</a></li>
+        <li> <a data-icon="star" href="contact.html" data-transition="slidefade">Contact Me</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <!-- PERSISTENT PAGE FOOTER-->
+      <div data-role="footer" data-position="fixed" data-theme="a">
+    <div data-role="navbar">
+      <ul>
+        <li><a data-icon="home" href="index.html" data-transition="slidefade">HOME</a></li>
+        <li><a data-icon="shop" href="work.html" data-transition="slidefade">Work</a></li>
+        <li><a data-icon="user" href="About.html" data-transition="slidefade">About Me</a></li>
+        <li><a data-icon="mail" href="contact.html" data-transition="slidefade">Contact Me</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
